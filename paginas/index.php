@@ -1,13 +1,13 @@
 <?php
 switch ($titel) {
     case "index":
-        ;
+        echo str_replace ('<!--TITLE-->', $titel, $pageContents);
         break;
-    case label2:
-        ;
+    case "login":
+        echo str_replace ('<!--TITLE-->', $titel, $pageContents);;
         break;
-    case label3:
-        ;
+    case "register":
+        echo str_replace ('<!--TITLE-->', $titel, $pageContents);;
         break;
     default:
         ;
