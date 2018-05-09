@@ -1,0 +1,14 @@
+body {
+    max-width: 100%;
+    background-color: lightblue;
+    padding-left:5% ;
+    padding-right:5% ;
+}
+
+header {
+    background-color: chartreuse;
+}
+
+main {
+    background-color: beige;
+}

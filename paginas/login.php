@@ -1,6 +1,6 @@
 <?php
-$titel = "index";
-ob_start();
+$titel = "login";
+ob_start ();
 ?>
 <!DOCTYPE html>
 <html>
@@ -10,19 +10,22 @@ ob_start();
     <title><!--TITLE--></title>
 
     <?php
-    include("paginas/include.php");
+    include("include.php");
     ?>
 </head>
 
 <body>
 <?php
-$pageContents = ob_get_contents();
-ob_end_clean();
-include_once("paginas/header.php");
+$pageContents = ob_get_contents ();
+ob_end_clean ();
+include_once("header.php");
 ?>
 
 <main>
     <h1>body</h1>
+    <form>
+<
+    </form>
 </main>
 
 </body>
