@@ -13,7 +13,7 @@ ob_start ();
 <?php
 $pageContents = ob_get_contents ();
 ob_end_clean ();
-include_once("header.php");
+include_once("paginas/header.php");
 ?>
 
 </body>
